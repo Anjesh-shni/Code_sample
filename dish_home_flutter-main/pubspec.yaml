@@ -1,0 +1,53 @@
+name: dish_home
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+#Project Working dependency package.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  lottie: ^2.6.0
+  flutter_svg: ^2.0.8
+  dots_indicator: ^3.0.0
+  carousel_slider: ^4.2.1
+  google_maps_flutter: ^2.4.0
+  geocoding: ^2.1.0
+  geolocator: ^10.0.0
+  syncfusion_flutter_charts: ^23.1.43
+  intl: ^0.18.1
+  percent_indicator: ^4.2.3
+  responsive_sizer: ^3.2.0
+
+#Developer dependencies.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application,
+  assets:
+    - assets/
+    - assets/img/
+    - assets/svg/
+    - assets/menu/
+    - assets/icons/
+    - assets/channel/
+    - assets/animation/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
